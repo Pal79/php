@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Pál Dániel">
         <meta name="description" content="from, űrlap, pratctice, gyakorlás">
-        <title>login</title>
+        <title>register</title>
     </head>
 
     <body>
