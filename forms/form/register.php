@@ -19,27 +19,27 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Név:*</td>
+                        <td>Név:</td>
                         <td>
-                            <input type="text" name="name">
+                            <input type="text" name="name"> * <?php echo $nameErr; ?>
                         </td>
                     </tr>
                     <tr>
-                        <td>Felhasználó név:*</td>
+                        <td>Felhasználó név:</td>
                         <td>
-                            <input type="text" name="userName">
+                            <input type="text" name="userName"> * <?php echo $userNameErr; ?>
                         </td>
                     </tr>
                     <tr>
-                        <td>Email:*</td>
+                        <td>Email:</td>
                         <td>
-                            <input type="email" name="email">
+                            <input type="email" name="email"> * <?php echo $emailErr; ?>
                         </td>
                     </tr>
                     <tr>
-                        <td>Jelszó:*</td>
+                        <td>Jelszó:</td>
                         <td>
-                            <input type="password" name="password">
+                            <input type="password" name="password"> * <?php echo $passwordErr; ?>
                         </td>
                     </tr>
                     <tr>
@@ -66,7 +66,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Tanult programnyelvek:*</td>
+                        <td>Tanult programnyelvek:</td>
                         <td>
                             <select name="progLangs[]" id="" multiple="multiple">
                                 <option value="php">php</option>
@@ -79,7 +79,7 @@
                                 <option value="c">c</option>
                                 <option value="c++">c++</option>
                                 <option value="c#">c#</option>
-                            </select>
+                            </select> * <?php echo $progLangsErr; ?>
                         </td>
                     </tr>
                 </tbody>
