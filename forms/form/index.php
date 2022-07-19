@@ -16,7 +16,7 @@ function stringTest($string) {
 }
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
-    if(isset($_POST["name"]) && !empty($_POST["name"]) && $_POST["name"] == stringTest($_POST["name"]) && preg_match("/^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]$/u") && strlen($_POST["name"]) <= 40) {
+    if(isset($_POST["name"]) && !empty($_POST["name"]) && $_POST["name"] == stringTest($_POST["name"]) && preg_match("/^[a-zA-ZáéíóöőúüűÁÉÍÓÖŐÚÜŰ\s]*$/u") && strlen($_POST["name"]) <= 40) {
         $name = $_POST["name"];
     } else {
         $userNameErr = "Hibás név!!!";
