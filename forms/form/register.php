@@ -92,6 +92,5 @@
                 </tfoot>
             </table>
         </form>
-        <br><hr>
     </body>
 </html>
